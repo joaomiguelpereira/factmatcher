@@ -54,8 +54,8 @@ public class FactMatcherTest {
         assertThat(matchResult.getNextCharacterIterator().hasNext()).isTrue();
         Iterator<Character> nextCharacters = matchResult.getNextCharacterIterator();
 
-        assertThat(nextCharacters.next()).isEqualTo('m');
-        assertThat(nextCharacters.next()).isEqualTo('v');
+        assertThat(nextCharacters.next()).isEqualTo('M');
+        assertThat(nextCharacters.next()).isEqualTo('V');
         assertThat(nextCharacters.hasNext()).isFalse();
 
     }
